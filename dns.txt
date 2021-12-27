@@ -1,0 +1,367 @@
+---
+kind: dns#resourceRecordSet
+name: almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: almacenguru.com.
+rrdatas:
+- 1 aspmx.l.google.com.
+- 5 alt1.aspmx.l.google.com.
+- 5 alt2.aspmx.l.google.com.
+- 10 alt3.aspmx.l.google.com.
+- 10 alt4.aspmx.l.google.com.
+ttl: 300
+type: MX
+---
+kind: dns#resourceRecordSet
+name: almacenguru.com.
+rrdatas:
+- ns-cloud-c1.googledomains.com.
+- ns-cloud-c2.googledomains.com.
+- ns-cloud-c3.googledomains.com.
+- ns-cloud-c4.googledomains.com.
+ttl: 21600
+type: NS
+---
+kind: dns#resourceRecordSet
+name: almacenguru.com.
+rrdatas:
+- ns-cloud-c1.googledomains.com. cloud-dns-hostmaster.google.com. 1 21600 3600 259200
+  300
+ttl: 21600
+type: SOA
+---
+kind: dns#resourceRecordSet
+name: almacenguru.com.
+rrdatas:
+- '"MS=C7387E1F884A9DA18E74D6292C78BBB8394731D03600"'
+- '"v=spf1 include:servers.mcsv.net include:spf.masterbase.com ~all"'
+- '"google-site-verification=_SsZc0ImH6z25VXX7GXTkrxS7_DaZqSJ5jDIAFjqv1Q"'
+ttl: 300
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: 17080294.almacenguru.com.
+rrdatas:
+- sendgrid.net.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: '@.almacenguru.com.'
+rrdatas:
+- '"MS=C7387E1F884A9DA18E74D6292C78BBB8394731D03600"'
+ttl: 3600
+type: TXT
+---
+kind: dns#resourceRecordSet
+name: _03c4fc8a93f9f05be010d6b434a6cd63.almacenguru.com.
+rrdatas:
+- _90d22bb293e69266cfa4ac8befc6726b.auiqqraehs.acm-validations.aws.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: s1._domainkey.almacenguru.com.
+rrdatas:
+- s1.domainkey.u806854.wl105.sendgrid.net.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: s2._domainkey.almacenguru.com.
+rrdatas:
+- s2.domainkey.u806854.wl105.sendgrid.net.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: api.analytic.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.almacenguru.com.
+rrdatas:
+- 35.192.183.203
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api-bech-qa.almacenguru.com.
+rrdatas:
+- api-bech-qa-301860450.sa-east-1.elb.amazonaws.com.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: app.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: bech-qa.almacenguru.com.
+rrdatas:
+- bech-qa-1604853325.sa-east-1.elb.amazonaws.com.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: api.analytic.dev.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.mobile.dev.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: oms.dev.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.oms.dev.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.public.dev.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: em4538.almacenguru.com.
+rrdatas:
+- u17080294.wl045.sendgrid.net.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: em5842.almacenguru.com.
+rrdatas:
+- u806854.wl105.sendgrid.net.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: api.mobile.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: oms.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.oms.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.public.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.analytic.qa.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.mobile.qa.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: oms.qa.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.oms.qa.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.public.qa.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: redirect.almacenguru.com.
+rrdatas:
+- www.almacenguru.com.opts-https.redirect.center.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: api.analytic.staging.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.staging.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.ia.staging.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.mobile.staging.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: oms.staging.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.oms.staging.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.public.staging.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: static.almacenguru.com.
+rrdatas:
+- d1xdmpiufp9p0x.cloudfront.net.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: static-dev.almacenguru.com.
+rrdatas:
+- d1s4gwp9hn32kx.cloudfront.net.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: api.analytic.test.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.mobile.test.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: oms.test.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.oms.test.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: api.public.test.almacenguru.com.
+rrdatas:
+- 34.70.163.106
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: consul.tools.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: drone.tools.almacenguru.com.
+rrdatas:
+- 34.98.82.166
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: minio.tools.almacenguru.com.
+rrdatas:
+- 35.198.2.210
+ttl: 300
+type: A
+---
+kind: dns#resourceRecordSet
+name: url5604.almacenguru.com.
+rrdatas:
+- sendgrid.net.
+ttl: 300
+type: CNAME
+---
+kind: dns#resourceRecordSet
+name: www.almacenguru.com.
+rrdatas:
+- lb-publi-site-prod-1646865727.sa-east-1.elb.amazonaws.com.
+ttl: 300
+type: CNAME

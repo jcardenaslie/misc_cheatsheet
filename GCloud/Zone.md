@@ -1,0 +1,1 @@
+gcloud config set compute/zone us-central1-a
